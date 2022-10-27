@@ -1,0 +1,69 @@
+.add-modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.3);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-modal-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 700px;
+  height: 500px;
+  padding: 40px;
+  border-radius: 30px;
+  background-color: rgb(231, 230, 231);
+  box-shadow: 0px 2px 51px 23px rgba(183, 145, 192, 0.25),
+    inset 5px 5px 10px rgba(172, 124, 194, 0.1),
+    inset -5px -5px 5px rgba(122, 28, 160, 0.25);
+}
+
+.added-img {
+  margin: 10px;
+  height: 128px;
+  position: absolute;
+  right: 40%;
+}
+
+.inp {
+  position: absolute;
+  width: 90%;
+  height: 40px;
+  padding: 10px;
+  font-size: 0.8em;
+  border: none;
+  outline: none;
+  background-color: rgb(222, 204, 240);
+  border-bottom: 1px dotted rgb(144, 106, 194);
+}
+
+.added-name,
+.choose-file {
+  width: 90%;
+  bottom: 160px;
+  left: 40px;
+}
+
+.choose-file {
+  bottom: 120px;
+}
+
+.close {
+  position: fixed;
+  right: 20px;
+  top: 10px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(210, 64, 247);
+  box-shadow: 0px 0px 40px 2px rgba(222, 64, 236, 0.43), inset 5px 5px 10px rgb(0, 0, 0, 0.1), inset -5px -5px 5px rgba(243, 241, 241, 0.25);
+  color: white;
+  cursor: pointer;
+}
