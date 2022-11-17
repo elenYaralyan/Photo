@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux"
 import { addPhotoAsync } from "../../store/features/mainSlice";
 import "../add/add.css"
 
-const API_URL = "https://62e7898a93938a545bd3a5e4.mockapi.io/photo_js"
+const API_URL = "https://636a471bc07d8f936d98af02.mockapi.io/photo_js"
 
 function Add({ isShown, setIsShown }) {
   const [item, setItem] = useState({
